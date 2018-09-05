@@ -50,6 +50,16 @@ apt-get install phpmyadmin
 a2enmod rewrite
 service apache2 restart
 
+# install java
 
+apt-get update
+apt-get install default-jre
+apt-get install default-jdk
 
+apt-get install python-software-properties
+add-apt-repository ppa:webupd8team/java
+apt-get update
+
+apt-get install oracle-java8-installer
+update-alternatives --config java
 
