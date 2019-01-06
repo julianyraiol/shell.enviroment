@@ -15,7 +15,7 @@ $ sh init.sh
 $ sh dev.sh
 ```
 
-### Categorias()
+### Categorias
 
 O arquivo init.sh é referente às configurações básicas do sistema. Por meio dele, é realizado a instalação e configuração do:
 
@@ -28,9 +28,9 @@ O arquivo dev.sh é referente à instação de pacotes essenciais para o desenvo
 
 - [Filezilla](https://filezilla-project.org/)
 - [Apache2](https://httpd.apache.org/)
-- [MySQl] (https://www.mysql.com/)
-- [PHPMyAdmin] (https://www.phpmyadmin.net/)
-- [Java] (https://www.java.com/pt_BR/download/)
+- [MySQl](https://www.mysql.com/)
+- [PHPMyAdmin](https://www.phpmyadmin.net/)
+- [Java](https://www.java.com/pt_BR/download/)
 
 ### Extras
 
