@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#update system
+# update system
 
 echo "update =========> system"
 sleep 3
@@ -8,31 +8,30 @@ sleep 3
 apt-get update
 apt-get upgrade
 
-clear
-
-#install git
+# install git
 
 echo "install =========> git"
 sleep 3
 
 apt-get install git
 
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+echo "What's your git email?"
+read gitemail
 
-clear
+echo "What's your git name?"
+read gitname
 
-#install vim
+git config --global user.email gitemail
+git config --global user.name gitname
+
+# install vim
 
 echo "install =========> vim"
 sleep 3
 
 apt-get install vim
 
-clear
-
-
-#install spotify
+# install spotify
 
 echo "install =========> spotify"
 
@@ -40,3 +39,16 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 apt-get update
 apt-get install spotify-client
+
+
+# edit terminal
+echo "edit bashrc"
+sleep 3
+
+git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+~/.bash_it/install.sh
+source .bashrc
+
+
+
+
