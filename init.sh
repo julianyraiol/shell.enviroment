@@ -21,8 +21,13 @@ read gitemail
 echo "What's your git name?"
 read gitname
 
-git config --global user.email gitemail
-git config --global user.name gitname
+git config --global user.email $gitemail
+git config --global user.name $gitname
+
+echo "Git Config"
+
+git config --list
+
 
 # install vim
 
