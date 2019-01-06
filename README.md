@@ -8,7 +8,7 @@ Ele está dividido em categorias e, em cada arquivo, há uma sequência de coman
 No seu terminal, execute os seguintes comandos:
 
 ```bash
-$ git clone https://github.com/julianyraiol/RNA-Works.git
+$ git clone https://github.com/julianyraiol/shell.enviroment
 $ cd shell.enviroment
 $ chmod +x init.sh
 $ sh init.sh
